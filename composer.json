@@ -1,11 +1,12 @@
 {
     "name": "magento-hackathon/magento-behat-extension",
     "description": "MageBehat - framework to run Behat/Mink for Magento extension integration tests",
-    "type": "library",
+    "type": "magento-module",
     "keywords": ["behat","bdd","magento"],
     "homepage": "https://github.com/magento-hackathon/MageBehat",
     "license": "MIT",
     "require": {
+        "magento-hackathon/magento-composer-installer": "*",
         "php": ">=5.3.0",
         "behat/behat": "2.4.*",
         "behat/mink-extension": "*",
